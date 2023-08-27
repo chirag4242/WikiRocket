@@ -4,7 +4,6 @@ type Props = {
     params:{
         searchTerm: string 
     }
-
 }
 
 export async function generateMetadata({params: {searchTerm}}: Props){
